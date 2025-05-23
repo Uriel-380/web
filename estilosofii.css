@@ -1,0 +1,109 @@
+tml, body {
+height:100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #d87093;
+}
+
+header{
+	width: 100;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 5px auto;
+	background: #FFF;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 8px 30px;
+	color: #FF1493;
+	"font-weight:lighter";
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #FF1493;
+	transition: all .50s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #9becc4;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+header {
+
+display:block;
+background: #ffb6c1;
+padding:10px 0px;
+}
+section {
+width: 85%;
+background: #dcdcdc;
+float: left;
+overflow: auto;
+padding-bottom: 60px;
+padding-top:30px;
+}
+
+aside {
+float: right;
+border: 1px solid red;
+width: %;
+border: 1px solid red;
+/*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+/*visibility: hidden;*/
+}
+
+footer {
+position: relative;
+margin-top: -50px;
+height: 30px;
+padding:5px 0px;
+clear: both;
+background: #ffb6c1;
+text-align:center;
+color: #fff;
+}
+
+figure {
+display: table; margin: 0 auto;
+}
